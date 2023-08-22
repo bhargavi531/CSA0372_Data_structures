@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+void print_Repeating (int arr[],int size)
+	{
+	int i, j;
+	printf("repeating elements are ");
+	for(i=0; i<size-1; i++)
+	for(j=1; j<size; j++)
+		if (arr[i]==arr[j])
+	}
+int main()
+{
+	int arr[]={4,2,4,5,2,3,1};
+	int arr_size = size of(arr)/size of (arr[0]);
+	print repeating(arr,arr_size);
+	get char()
+	return 0;
+}
